@@ -1,5 +1,6 @@
 vi:
   title:
+    base_title: "Ruby on Rails Tutorial ứng dụng mẫu"
     home: "Trang chủ"
     help: "Trợ giúp"
   static_pages:
