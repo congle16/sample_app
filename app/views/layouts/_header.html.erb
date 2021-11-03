@@ -1,0 +1,14 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <%= link_to t("title.sample_app"), "#", id: "logo"%>
+        <nav>
+            <ul class="nav navbar-nav navbar-right">
+                <li><%= link_to t("title.home"), "#"%></li>
+                <li><%= link_to t("title.help"), "#"%></li>
+                <li><%= link_to t("title.login"), "#"%></li>
+                <li><%= link_to t("title.english"), locale:"en" %></li>
+                <li><%= link_to t("title.vietnamese"), locale:"vi" %></li>
+            </ul>
+        </nav>
+    </div>
+</header>
