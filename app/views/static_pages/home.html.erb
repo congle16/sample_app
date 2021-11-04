@@ -1,5 +1,6 @@
-<%= link_to "English", locale:"en" %>
-<%= link_to "Vietnamese", locale:"vi" %>
+<% provide :title, t("title.home") %>
+    <%= link_to "English", locale:"en" %>
+    <%= link_to "Vietnamese", locale:"vi" %>
+    <h1><%= t"title.home"%></h1>
+    <p><%= t"static_pages.home.body_html"%></p>
 
-<h1><%= t"title.home"%></h1>
-<p><%= t"static_pages.home.body_html"%></p>
