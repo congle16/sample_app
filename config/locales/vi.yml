@@ -1,10 +1,16 @@
 vi:
   title:
+    sample_app: "Ứng dụng mẫu"
     base_title: "Ruby on Rails Tutorial ứng dụng mẫu"
     home: "Trang chủ"
     help: "Trợ giúp"
+    login: "Đăng nhập"
+    english: "Tiếng Anh"
+    vietnamese: "Tiếng Việt"
   static_pages:
     home:
       body_html: Đây là trang chủ của ứng dụng mẫu <a href="http://www.railstutorial.org/">Hướng dẫn Ruby on Rails</a>.
     help:
       body_html: Nhận trợ giúp về Hướng dẫn Ruby on Rails tại <a href="http://www.railstutorial.org/help">Trợ giúp Hướng dẫn về Rails</a>. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem <a href="http://www.railstutorial.org/book">sách <em>Hướng dẫn về Ruby on Rails</em></a>.
+    sign_up: "Đăng ký ngay!"
+    
