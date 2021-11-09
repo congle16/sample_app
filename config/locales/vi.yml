@@ -7,10 +7,20 @@ vi:
     login: "Đăng nhập"
     english: "Tiếng Anh"
     vietnamese: "Tiếng Việt"
+    create_my_account: "Tạo tài khoản"
+    sign_up: "Đăng ký"
+    password: "Mật khẩu"
+    name: "Tên người dùng"
+    password_confirmation: "Nhập lại mật khẩu"
+    create_account: "Tạo tài khoản"
+    contains_error: "Biểu mẫu chứa"
+    error: "lỗi"
   static_pages:
     home:
       body_html: Đây là trang chủ của ứng dụng mẫu <a href="http://www.railstutorial.org/">Hướng dẫn Ruby on Rails</a>.
     help:
       body_html: Nhận trợ giúp về Hướng dẫn Ruby on Rails tại <a href="http://www.railstutorial.org/help">Trợ giúp Hướng dẫn về Rails</a>. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem <a href="http://www.railstutorial.org/book">sách <em>Hướng dẫn về Ruby on Rails</em></a>.
     sign_up: "Đăng ký ngay!"
-    
+  flash:
+    success: "Chào mứng đến với Sample App!"
+    danger: "Không tìm thấy tài khoản"
