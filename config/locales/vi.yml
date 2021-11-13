@@ -38,7 +38,7 @@ vi:
     invalid_email_password_combination: "Kết hợp mật khẩu email không hợp lệ!"
     profile_updated: "Đã cập nhật thông tin cá nhân"
     please_login: "Vui lòng đăng nhập."
-    user_deleted: "Tài khoản đã bị xóa"
+    user_deleted: "Tài khoản đã bị xóa!"
     delete_fail: "Xóa tài khoản thất bại!"
     login_success: "Đăng nhập thành công"
   sign_up_now: "Đăng ký ngay!"
