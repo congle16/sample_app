@@ -5,6 +5,7 @@ en:
     home: "Home"
     help: "Help"
     login: "Login"
+    logout: "Log out"
     english: "English"
     vietnamese: "Vietnamese"
     create_my_account: "Create my account"
@@ -15,6 +16,9 @@ en:
     create_account: "Create account"
     contains_error: "The form contains"
     error: "error"
+    account: "Account"
+    setting: "Settings"
+    profile: "Profile"
   static_pages:
     home:
       body_html: This is the home page for the <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> sample application.
@@ -24,3 +28,7 @@ en:
   flash:
     success: "Welcome to the Sample App!"
     danger: "Don't find account"
+    invalid_email_password_combination: "Invalid email password combination!"
+  sign_up_now: "Sign Up Now!"
+  new_user: "New User?"
+  user: "User"
