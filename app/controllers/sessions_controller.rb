@@ -4,8 +4,8 @@ class SessionsController < ApplicationController
   def create
     @user = User.find_by email: params[:session][:email].downcase
     if @user&.authenticate params[:session][:password]
-      flash[:success] = t "flash.login_success"
       log_in @user
+      session_p[:remember_me] == Settings.check ? remember(user) : forget(user)
       redirect_back_or @user
     else
       flash.now[:danger] = t "flash.invalid_email_password_combination"
