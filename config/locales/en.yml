@@ -45,4 +45,12 @@ en:
   new_user: "New User?"
   user: "User"
   remember_me: "Remember me on this computer"
-  
+  email:
+    hi: "Hi"
+    text_activate: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"
+    account_activation: "Account activation"
+    check_activate: "Please check your email to activate your account."
+    not_activate: "Account not activated. Check your email for the activation link."
+    account_activated: "Account activated!"
+    invalid_activation: "Invalid activation link"

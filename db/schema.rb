@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_11_12_155821) do
+ActiveRecord::Schema.define(version: 2021_11_14_155019) do
 
   create_table "admins", force: :cascade do |t|
     t.string "name"
@@ -35,6 +35,9 @@ ActiveRecord::Schema.define(version: 2021_11_12_155821) do
     t.string "password_digest"
     t.string "remember_digest"
     t.boolean "admin"
+    t.string "activation_digest"
+    t.boolean "activated"
+    t.datetime "activated_at"
   end
 
 end
