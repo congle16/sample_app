@@ -2,16 +2,17 @@ class User < ApplicationRecord
   attr_accessor :remember_token
   before_save{self.email = email.downcase}
   validates :name, presence: true,
-  length: {maximum: 50}
+  length: {maximum: Settings.length.digit_50}
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i.freeze
   validates :email, presence: true,
-            length: {maximum: 50},
+            length: {maximum: Settings.length.digit_50},
             format: {with: VALID_EMAIL_REGEX},
             uniqueness: true
   has_secure_password
   validates :password,
             presence: true,
-            length: {minimum: 6}
+            length: {minimum: Settings.length.digit_6},
+            allow_nil: true
 
   class << self
     # returns the hash digest of the given string

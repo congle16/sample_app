@@ -1,0 +1,8 @@
+length:
+  digit_6: 6
+  digit_50: 50
+  digit_140: 140
+email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+size:
+  digit_80: 80
+check: "1"
